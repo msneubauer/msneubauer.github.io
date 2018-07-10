@@ -2,6 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Mark Neubauer
+# Name of website
+title: My website
 email: msn@illinois.edu
 description: > # this means to ignore newlines until "url:"
   Academic home page of Mark Neubauer
