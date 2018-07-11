@@ -6,3 +6,5 @@ description: List of Selected Publications in reversed chronological order follo
 ---
 
 [pubs](http://msn.web.cern.ch/msn/pubs.pdf)
+
+<img src="{{ site.baseurl }}/assets/img/pubs_selected.png" alt="" title="example image"/>

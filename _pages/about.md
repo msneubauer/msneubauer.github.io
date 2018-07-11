@@ -3,8 +3,8 @@ layout: about
 permalink: /
 title: <strong>Mark Neubauer</strong>
 description: >
-    <p><font size="4">Associate Professor of Physics, University of Illinois at Urbana-Champaign</font></p>
-    <p><font size="4">Faculty Affiliate, National Center for Supercomputing Applications</font></p>
+    <p><font size="4">Professor of Physics, <i>University of Illinois at Urbana-Champaign</i></font></p>
+    <p><font size="4">Faculty Affiliate, <i>National Center for Supercomputing Applications</i></font></p>
 
 profile:
   align: left
@@ -18,8 +18,12 @@ news: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a professor and particle physicist at the University of Illinois at Urbana-Champaign. I am also affiliated faculty with the National Center for Supercomputing Applications located on the University of Illinois campus. Generally speaking, my research aims to understand the universe at its most fundamental level, including the constituents of matter and their interactions.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research is focused on searching for physics beyond the [standard model of particle physics](https://en.wikipedia.org/wiki/Standard_Model) through detailed study of high-energy proton-proton collisions at [CERN](https://home.cern)'s [Large Hadron Collider](https://home.cern/topics/large-hadron-collider). In this pursuit, my [research group](https://msneubauer.github.io/NeubauerGroup/team) analyzes data from the [ATLAS Experiment](http://atlasexperiment.org), with an emphasis on the <span style="color:blue">Higgs boson</span> as a <span style="color:blue">sensitive tool</span> to search for <span style="color:blue">new physics</span> and applications of <span style="color:blue">machine learning</span> to improve the sensitivity for these searches.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My group is also working to improve the experimental methods and apparatus in high-energy physics, including <span style="color:blue">advancing scientific software</span> and <span style="color:blue">computing</span> and developing <span style="color:blue">fast electronics</span> for <span style="color:blue">highly-parallelized</span> systems that <span style="color:blue">track charged particles</span> at the LHC.
+
+<b>See my [Research page](research)</b> for some of my past research highlights and [Neubauer Group](https://msneubauer.github.io/NeubauerGroup) for more information about my current research in particle physics.
+
+I am also passionate about STEM education and outreach, especially creative use of modern technology in electronics, computing and data science in education. See my [Teaching page](teaching) for more information!
