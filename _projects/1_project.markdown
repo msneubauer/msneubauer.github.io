@@ -1,21 +1,16 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Neutrino Astrophysics
+description: Resolution of the Solar Neutrino Problem
+img: /assets/img/SNO-detector.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+On the SNO experiment, my analysis of 8B solar neutrino data provided first direct evidence for e flavor change, resolving the decades-long “Solar Neutrino Problem”.
+The first SNO paper [PRL 87 (2001) 71301] was based on my thesis work and lead
+to the 2016 Breakthrough Prize in Fundamental Physics and the 2015 Nobel Prize in Physics (A. McDonald and T. Kajita) for observation of e flavor change at SNO.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+<img align="left" width="340px" src="{{ site.baseurl }}/assets/img/SNO-flux_numutau.png" alt="" title="example image"/>
+<img align="right" width="340px" src="{{ site.baseurl }}/assets/img/SNO-flux_nutotal.png" alt="" title="example image"/>
 
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
