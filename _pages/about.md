@@ -25,6 +25,6 @@ My current research is focused on searches for physics beyond the [standard mode
 
 My group is also working to improve the experimental methods and apparatus in high-energy physics, including <span style="color:blue">advancing scientific software</span> and <span style="color:blue">computing</span> and developing <span style="color:blue">fast electronics</span> for <span style="color:blue">highly-parallelized</span> systems that <span style="color:blue">track charged particles</span> at the LHC.
 
-<b>See my [Research page](research)</b> for some of my past research highlights and the [Neubauer Group Site](https://msneubauer.github.io/NeubauerGroup) for more information about my current research in particle physics.
+<b>See my [Research page](research)</b> for some of my past research highlights and the [Neubauer Group](https://msneubauer.github.io/NeubauerGroup) for more information about my current research in particle physics.
 
 I am also passionate about STEM education and outreach, especially creative use of modern technology via computing and data science in education. See my [Teaching page](teaching) for more information!
