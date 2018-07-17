@@ -3,8 +3,11 @@ layout: about
 permalink: /
 title: <strong>Mark Neubauer</strong>
 description: >
-    <p><font size="4">Professor of Physics, <i>University of Illinois at Urbana-Champaign</i></font></p>
-    <p><font size="4">Faculty Affiliate, <i>National Center for Supercomputing Applications</i></font></p>
+    <p style="line-height:1.0"><font size="5">Professor of Physics</font></p>
+    <p style="line-height:0.5"><font size="4"><i>University of Illinois at Urbana-Champaign</i></font></p><br>
+    <p style="line-height:1.0"><font size="5">Faculty Affiliate</font></p>
+    <p style="line-height:0.5"><font size="4"><i>National Center for Supercomputing Applications</i></font></p>
+
 
 profile:
   align: left
