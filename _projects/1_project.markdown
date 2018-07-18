@@ -23,6 +23,8 @@ This result lead to the [2015 Nobel Prize in Physics](https://www.nobelprize.org
 
 {% include thesis_popular.html %}
 
+<h3><span style="color:blue">Further Reading</span></h3>
+
 <!--
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/SNO-sun.jpg" alt="" title="Our Sun"/>
@@ -36,5 +38,4 @@ This result lead to the [2015 Nobel Prize in Physics](https://www.nobelprize.org
 <img align="left" width="340px" src="{{ site.baseurl }}/assets/img/SNO-flux_numutau.png" alt="" title="example image"/>
 <img align="right" width="340px" src="{{ site.baseurl }}/assets/img/SNO-flux_nutotal.png" alt="" title="example image"/>
 
-<h3>Further Reading</h3>
 -->
