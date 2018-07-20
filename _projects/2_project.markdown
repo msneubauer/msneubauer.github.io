@@ -5,7 +5,7 @@ description: <i>Resolution of a <i>b</i>-baryon Lifetime Puzzle</i>
 img: /assets/img/lambdab-diagram.jpg
 ---
 
-<i>Measurement of the &Lambda;<sub>b</sub> Lifetime in &Lambda;<sub>b</sub>-->J/&Psi; &Lambda;<sup>0</sup></i> at the CDF experiment.
+[<i>Measurement of the &Lambda;<sub>b</sub> Lifetime in &Lambda;<sub>b</sub>-->J/&Psi; &Lambda;<sup>0</sup></i> at the CDF experiment.](https://arxiv.org/pdf/hep-ex/0609021.pdf)
 
 <h3><span style="color:blue">Synopsis</span></h3>
 
@@ -13,11 +13,12 @@ The weak decay of quarks depends on fundamental parameters of the standard model
 
 On the CDF experiment, I lead an analysis of &tau;(&Lambda;<sub>b</sub>) in exclusive decay &Lambda;<sub>b</sub>-->J/&Psi; &Lambda;<sup>0</sup>. A diagram of this decay channel is shown below:
 
-<img align="center" width="340px" src="{{ site.baseurl }}/assets/img/lambdab-diagram.jpg" alt="" title="example image"/>
+<img align="left" width="490px" src="{{ site.baseurl }}/assets/img/lambdab-diagram.jpg" alt="" title="example image"/>
+<img align="right" width="204px" src="{{ site.baseurl }}/assets/img/lambdab-baryon.jpg" alt="" title="example image"/>
 
 The muons from the J/&Psi; decay are used to trigger the detector on &Lambda;<sub>b</sub> events and measure the decay vertex. The full reconstruction of the decay allows for measurement of the &Lambda;<sub>b</sub> momentum and therefore the c&tau; distribution, shown below for B<sup>0</sup><sub>b</sub> (left) and &Lambda;<sub>b</sub> (right):
 
-<img align="center" width="640px" src="{{ site.baseurl }}/assets/img/lambdab-ctau.png" alt="" title="example image"/>
+<img align="center" width="690px" src="{{ site.baseurl }}/assets/img/lambdab-ctau.png" alt="" title="example image"/>
 
 We measured &tau;(&Lambda;<sub>b</sub>)/&tau;(B<sup>0</sup><sub>b</sub>) = 1.041 ± 0.057 (stat. + syst.). At the time of publication of this result [PRL 98 (2007) 122001](https://arxiv.org/pdf/hep-ex/0609021.pdf), this was the single most precise measurement of &tau;(&Lambda;<sub>b</sub>) and higher than the previous world average by 3.2&sigma;. Our measurement resolved the “&Lambda;<sub>b</sub> Lifetime Puzzle” in favor of earlier theory calculations of &tau;(&Lambda;<sub>b</sub>).
 

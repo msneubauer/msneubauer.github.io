@@ -1,56 +1,35 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
-img:
-redirect: https://unsplash.com
+title: <b>Diboson Production</b>
+description: <i>First Observation of WZ Production</i>
+img: /assets/img/WZ-TGC.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+[Observation of WZ Production](https://pdfs.semanticscholar.org/4b88/f5d19a9b2fc61f18fe90c876866a7e8d8fa4.pdf)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h3><span style="color:blue">Synopsis</span></h3>
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The large W and Z boson production cross sections in pp􏰇 collisions at the Fermilab Tevatron have been measured with high precision. The production of heavy vector boson pairs (WW , WZ, and ZZ) is far less common and can involve the triple gauge couplings (TGCs) between the bosons themselves via an intermediate virtual boson. Deviations of measured diboson production properties from standard model (SM) predictions could arise from new interactions or loop effects due to new particles at energy scales not directly accessible to a given experiment.
 
+On the CDF experiment, I lead an analysis that made the first observation of WZ production. This result was published in [](). We used the full-leptonic decay of both bosons to observe WZ production, which was also the first trilepton signal to be observed. Some kinematic distributions are shown below:
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+<img align="center" width="740px" src="{{ site.baseurl }}/assets/img/WZ-kinematics.png" alt="" title="example image"/>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+The signal significance was 6&sigma;. Having established a WZ signal, we measured the production cross section to be
 
+&sigma; (ppbar --> WZ) = 5.0<sup>1.8</sup><sub>-1.4</sub> (stat.) ± 0.4 (syst.) pb
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Using similar analysis techniques on the CDF experiment, we also made the first measurement of ZZ production at a hadron collider [PRL 100 (2008) 201801)](https://arxiv.org/abs/0801.4806).
 
+I have also authored two review articles on tests of electroweak physics [RMP 84 (2012) 1477](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1477) and diboson physics at colliders [ARNPS 61 (2011) 223](https://www.annualreviews.org/doi/10.1146/annurev-nucl-102010-130106).
 
-<br/><br/>
+<h3><span style="color:blue">Further Reading</span></h3>
 
+1. [A. Abulencia et al. [CDF Collaboration], “Observation of WZ Production”, Phys. Rev. Lett. 98, 161801
+(2007).](https://pdfs.semanticscholar.org/4b88/f5d19a9b2fc61f18fe90c876866a7e8d8fa4.pdf)
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
+2. [T. Aaltonen et al. [CDF Collaboration], “First Measurement of ZZ Production in ppbar Collisions at ps = 1.96 TeV”, Phys. Rev. Lett. 100, 201801 (2008)](https://arxiv.org/abs/0801.4806)
 
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+3. [Neubauer, Mark S. “Diboson production at colliders”, Ann. Rev. Nucl. Part. Sci. 61, 223–250 (2011).](https://www.annualreviews.org/doi/10.1146/annurev-nucl-102010-130106)
+
+4. [Hobbs, John D. and Neubauer, Mark S. and Willenbrock, Scott, “Tests of the Standard Electroweak Model at the Energy Frontier”, Rev. Mod. Phys. 84, 1477 (2012)](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1477)
