@@ -1,8 +1,8 @@
 ---
 layout: page
 title: <b><i>b</i>-Hadron Lifetimes</b>
-description: <i>Resolution of a <i>b</i>-baryon Lifetime Puzzle</i>
-img: /assets/img/lambdab-diagram.jpg
+description: <i>Resolution of a <i>b</i>-baryon Lifetime Puzzle!</i>
+img: /assets/img/lambdab-diagram2.jpg
 ---
 
 [<i>Measurement of the &Lambda;<sub>b</sub> Lifetime in &Lambda;<sub>b</sub>-->J/&Psi; &Lambda;<sup>0</sup></i> at the CDF experiment.](https://arxiv.org/pdf/hep-ex/0609021.pdf)

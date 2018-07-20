@@ -1,7 +1,7 @@
 ---
 layout: page
 title: <b>Diboson Production</b>
-description: <i>First Observation of WZ Production</i>
+description: <i>First Observation of WZ Production!</i>
 img: /assets/img/WZ-TGC.png
 ---
 
