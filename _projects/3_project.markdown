@@ -17,9 +17,9 @@ On the CDF experiment, I lead an analysis that made the first observation of WZ 
 
 The signal significance was 6&sigma;. Having established a WZ signal, we measured the production cross section to be
 
-&sigma; (ppbar --> WZ) = 5.0<sup>1.8</sup><sub>-1.4</sub> (stat.) ± 0.4 (syst.) pb
+<b>&sigma; (ppbar --> WZ) = 5.0<sup>1.8</sup><sub>-1.4</sub> (stat.) ± 0.4 (syst.) pb</b>
 
-Using similar analysis techniques on the CDF experiment, we also made the first measurement of ZZ production at a hadron collider [PRL 100 (2008) 201801)](https://arxiv.org/abs/0801.4806).
+Using similar analysis techniques on the CDF experiment, we also made the first measurement of ZZ production at a hadron collider [PRL 100 (2008) 201801](https://arxiv.org/abs/0801.4806).
 
 I have also authored two review articles on tests of electroweak physics [RMP 84 (2012) 1477](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1477) and diboson physics at colliders [ARNPS 61 (2011) 223](https://www.annualreviews.org/doi/10.1146/annurev-nucl-102010-130106).
 

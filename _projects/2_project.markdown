@@ -20,7 +20,10 @@ The muons from the J/&Psi; decay are used to trigger the detector on &Lambda;<su
 
 <img align="center" width="690px" src="{{ site.baseurl }}/assets/img/lambdab-ctau.png" alt="" title="example image"/>
 
-We measured &tau;(&Lambda;<sub>b</sub>)/&tau;(B<sup>0</sup><sub>b</sub>) = 1.041 ± 0.057 (stat. + syst.). At the time of publication of this result [PRL 98 (2007) 122001](https://arxiv.org/pdf/hep-ex/0609021.pdf), this was the single most precise measurement of &tau;(&Lambda;<sub>b</sub>) and higher than the previous world average by 3.2&sigma;. Our measurement resolved the “&Lambda;<sub>b</sub> Lifetime Puzzle” in favor of earlier theory calculations of &tau;(&Lambda;<sub>b</sub>).
+We measured
+<p><b>&tau;(&Lambda;<sub>b</sub>)/&tau;(B<sup>0</sup><sub>b</sub>) = 1.041 ± 0.057 (stat. + syst.)</b></p>
+
+At the time of publication of this result [PRL 98 (2007) 122001](https://arxiv.org/pdf/hep-ex/0609021.pdf), this was the single most precise measurement of &tau;(&Lambda;<sub>b</sub>) and higher than the previous world average by 3.2&sigma;. Our measurement resolved the “&Lambda;<sub>b</sub> Lifetime Puzzle” in favor of earlier theory calculations of &tau;(&Lambda;<sub>b</sub>).
 
 <h3><span style="color:blue">Further Reading</span></h3>
 
