@@ -11,7 +11,12 @@ The SM provides a mechanism, adopted from work in condensed matter theory and fo
 
 <h3><span style="color:blue">Higgs Boson Discovery</span></h3>
 
+[<i>Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC</i>](https://arxiv.org/abs/1207.7214)
+
 In 2012, the ATLAS and CMS experiments announced the discovery of a Higgs boson <i>h</i>. This discovery lead to the 2013 Nobel Prize in Physics for a theoretical prediction of the Higgs boson. My group contributed to the Higgs boson discovery (5.9&sigma;) [PLB 716 (2012) 1](https://arxiv.org/abs/1207.7214) through analysis of the h→WW* channel.
 
 <h3><span style="color:blue">Observation of h→WW* and Measurement of Higgs Boson Couplings</span></h3>
+
+[<i>Observation and measurement of Higgs boson decays to WW* with the ATLAS detector</i>](https://arxiv.org/abs/1412.2641)
+
 My group contributed to the h→WW* observation (6.1&sigma;) [PRD 92 (2015) 012006](https://arxiv.org/abs/1412.2641), providing the most precise single-channel measurement of Higgs boson couplings. My former graduate student Philip Chang (now a postdoc at UCSD) received the 2014 US ATLAS Graduate Student Achievement Award for his work on the h→WW* observation and the Higgs boson couplings measurements.
