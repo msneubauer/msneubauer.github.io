@@ -20,3 +20,7 @@ In 2012, the ATLAS and CMS experiments announced the discovery of a Higgs boson 
 [<i>Observation and measurement of Higgs boson decays to WW* with the ATLAS detector</i>](https://arxiv.org/abs/1412.2641)
 
 My group contributed to the h→WW* observation (6.1&sigma;) [PRD 92 (2015) 012006](https://arxiv.org/abs/1412.2641), providing the most precise single-channel measurement of Higgs boson couplings. My former graduate student Philip Chang (now a postdoc at UCSD) received the 2014 US ATLAS Graduate Student Achievement Award for his work on the h→WW* observation and the Higgs boson couplings measurements.
+
+<h3><span style="color:blue">Further Reading</span></h3>
+1. [G. Aad et al. [ATLAS Collaboration], "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC", Phys. Lett. B716 (2012)](https://arxiv.org/abs/1207.7214)
+2. 
