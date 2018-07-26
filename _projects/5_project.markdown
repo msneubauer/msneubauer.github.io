@@ -25,3 +25,4 @@ The S2I2-HEP Conceptualization is now complete, with our [Strategic Plan](http:/
 3. [P. Elmer, M. S. Neubauer, and M. D. Sokoloff, "Strategic Plan for a Scientific Software Innovation Institute for High Energy Physics", arXiv:1712.06592 (2017)](https://arxiv.org/abs/1712.06592)
 4. [L. Bauerdicket et. al. [HSF Collaboration], "HEP Software Foundation Community White PaperWorking Group - Data Analysis and Interpretation", arXiv:1804.03983 (2018)](https://arxiv.org/abs/1804.03983)
 5. [D. Berzano, et. al. [HSF Collaboration], "HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers", arXiv:1807.02875 (2018)](https://arxiv.org/abs/1807.02875)
+6. [K. Albertsson, et. al. [HSF Collaboration], "HEP Software Foundation Community White Paper Working Group - Machine Learning", arXiv:1807.02876 (2018)](https://arxiv.org/abs/1807.02876)
