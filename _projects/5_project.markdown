@@ -5,51 +5,21 @@ description: <i>Software and Computing for High-energy Physics</i>
 img: /assets/img/computing-cern.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Advanced software and globally distributed computing play a crucial role in the success of large scientific projects, of which the LHC is the largest. My involvement for computing in particle physics began as a postdoc at MIT, where colleagues and I developed the CDF Analysis Facility [IEEE 51 (2004) 892](http://inspirehep.net/record/665569/files/fermilab-conf-04-365.pdf). In my role as Deputy Software and Computing Manager for US ATLAS, I was responsible for managing a budget of $20M/year and 45 FTEs for U.S. computing facilities and core software activities. I was a co-PI for the NSF-funded [DASPOS Project](https://daspos.crc.nd.edu), which explores viable data, software, and analysis preservation strategies for high-energy physics and other science domains. In partnership with NCSA in 2010, I started the Tier-2 Computing Center at Illinois for LHC data processing. The Illinois Tier-2 Center now has ~5400 CPU cores and is an integral part of the largest LHC Tier-2 facility in the world [Midwest Tier-2](https://www.ci.uchicago.edu/research-centers/atlas-midwest-tier-2-center). Through allocations on the [Blue Waters Supercomputer](http://www.ncsa.illinois.edu/enabling/bluewaters), my graduate student Dewen Zhong and I have worked to apply machine learning techniques to the problem of boosted Higgs boson identification.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h3><span style="color:blue">Software Institute for High-energy Physics</span></h3>
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In 2016, I received an NSF award [ACI-1558233](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1558233) along with co-PIs at Princeton and Cincinnati, to lead a conceptualization effort for an NSF Scientific Software Innovation Institute for HEP ([S2I2-HEP](http://s2i2-hep.org)). We initiated a community-wide roadmap process to broadly identify key elements of computing infrastructure and software R&D required to realize the full scientific potential of the high-luminosity LHC running starting in 2024. The kick-off workshop for the S2I2-HEP Conceptualization was jointly held at the University of Illinois and NCSA in December 2016.
 
+<img align="left" width="340px" src="{{ site.baseurl }}/assets/img/Computing-Illinois1.jpg" alt="" title="example image"/>
+<img align="right" width="340px" src="{{ site.baseurl }}/assets/img/Computing-Illinois2.jpg" alt="" title="example image"/>
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+The S2I2-HEP Conceptualization is now complete, with our [Strategic Plan](http://arxiv.org/abs/1712.06592) submitted to the NSF and a [Community White Paper](http://arxiv.org/abs/1712.06982) where I served on the Editorial Board and as convener of the Data Analysis and Interpretation (DAI) Working Group and Editor for the [DAI WG Report](http://arxiv.org/abs/1804.03983).
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+<h3><span style="color:blue">Further Reading</span></h3>
 
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+1. [T. Kim, et al., "The CDF Central Analysis Farm, " IEEE Trans. Nucl. Sci. 51, 892-896 (2004)](http://inspirehep.net/record/665569/files/fermilab-conf-04-365.pdf)
+2. [Antonio Alves Jr.et al. [HSF Collaboration]. "A Roadmap for HEP Software and Computing R&D for the 2020s", arXiv:1712.06982 (2017)](https://arxiv.org/abs/1712.06982)
+3. [P. Elmer, M. S. Neubauer, and M. D. Sokoloff, "Strategic Plan for a Scientific Software Innovation Institute for High Energy Physics", arXiv:1712.06592 (2017)](https://arxiv.org/abs/1712.06592)
+4. [L. Bauerdicket et. al. [HSF Collaboration], "HEP Software Foundation Community White PaperWorking Group - Data Analysis and Interpretation", arXiv:1804.03983 (2018)](https://arxiv.org/abs/1804.03983)
+5. [D. Berzano, et. al. [HSF Collaboration], "HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers", arXiv:1807.02875 (2018)](https://arxiv.org/abs/1807.02875)
