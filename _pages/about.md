@@ -6,6 +6,7 @@ description: >
     <p style="line-height:1.0"><font size="5">Professor of Physics</font></p>
     <p style="line-height:0.5"><font size="4"><i>University of Illinois at Urbana-Champaign</i></font></p><br>
     <p style="line-height:1.0"><font size="5">Faculty Affiliate</font></p>
+    <p style="line-height:0.5"><font size="4"><i>Department of Electrical and Computer Engineering</i></font></p>
     <p style="line-height:0.5"><font size="4"><i>National Center for Supercomputing Applications</i></font></p>
 profile:
   align: left
@@ -15,7 +16,7 @@ news: false
 social: true
 ---
 
-I am a professor and particle physicist at the [University of Illinois at Urbana-Champaign](http://illinois.edu). I am also affiliated faculty with the [National Center for Supercomputing Applications](http://www.ncsa.illinois.edu) located on the University of Illinois campus. Generally speaking, my research aims to understand the universe at its most fundamental level, including the constituents of matter and their interactions.
+I am a professor and particle physicist at the [University of Illinois at Urbana-Champaign](http://illinois.edu). I am also affiliated faculty with the [National Center for Supercomputing Applications](http://www.ncsa.illinois.edu) and the [Department of Electrical and Computer Engineering](https://ece.illinois.edu). Generally speaking, my research aims to understand the universe at its most fundamental level, including the constituents of matter and their interactions.
 
 My current research is to search for physics beyond the [standard model](https://en.wikipedia.org/wiki/Standard_Model) through a detailed study of high-energy proton-proton collisions at [CERN](https://home.cern)'s [Large Hadron Collider](https://home.cern/topics/large-hadron-collider). My [research group](https://msneubauer.github.io/NeubauerGroup/team) searches for new physics using data from the [ATLAS Experiment](http://atlasexperiment.org), with an emphasis on the [Higgs boson](https://en.wikipedia.org/wiki/Higgs_boson) as a sensitive new tool and applications of <span style="color:blue">machine learning</span> to enhance our sensitivity.
 
