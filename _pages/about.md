@@ -24,4 +24,4 @@ My group is also working to improve the experimental methods and apparatus in hi
 
 <b>See my [Research page](research)</b> for some of my past research highlights and the [Neubauer Group](https://msneubauer.github.io/NeubauerGroup) for more information about my current research in particle physics.
 
-I am also passionate about STEM education, especially the creative use of technologies from data science to improve physics education. See my [Teaching page](teaching) for more information!
+I am also passionate about outreach and education in STEM fields, especially the creative use of technologies from data science to improve physics education. See my [Teaching page](teaching) for more information!
