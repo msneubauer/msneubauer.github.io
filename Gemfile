@@ -5,6 +5,8 @@ group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-email-protect'
     gem 'jekyll-paginate'
+    gem 'jekyll-scholar'
+    gem 'jekyll-feed'
     gem 'jemoji'
     gem 'unicode_utils'
     gem "kramdown", ">= 2.3.0"
