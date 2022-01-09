@@ -1,6 +1,11 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+
 group :jekyll_plugins do
-    gem 'eventmachine', '1.2.7'
+    gem 'eventmachine'
     gem 'github-pages'
     gem 'jekyll'
     gem 'jekyll-email-protect'
@@ -9,8 +14,8 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jemoji'
     gem 'unicode_utils'
-    gem "kramdown", ">= 2.3.0"
-    gem "rubyzip", ">= 1.3.0"
-    gem "nokogiri", ">= 1.11.0"
-    gem "bibtex-ruby", ">= 5.1.0"
+    gem "kramdown"
+    gem "rubyzip"
+    gem "nokogiri"
+    gem "bibtex-ruby"
 end
