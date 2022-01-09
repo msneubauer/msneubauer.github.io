@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem "kramdown", ">= 2.3.0"
     gem "rubyzip", ">= 1.3.0"
     gem "nokogiri", ">= 1.11.0"
+    gem "bibtex-ruby", ">= 5.1.0"
 end
