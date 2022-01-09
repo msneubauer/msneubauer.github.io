@@ -10,7 +10,7 @@ description: >
     <p style="line-height:0.5"><font size="4"><i>National Center for Supercomputing Applications</i></font></p>
 profile:
   align: left
-  image: neubauer.jpg
+  image: neubauer.png
   address:
 news: false
 social: true
