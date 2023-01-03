@@ -15,16 +15,14 @@ footer_text: >
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
-twitter_username: MarkSNeubuer
-github_username:  msneubauer
 excerpt_separator: <!--more-->
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: msneubauer
-linkedin_username: # your LinkedIn user name
 twitter_username: MarkSNeubauer
+github_username: msneubauer
+linkedin_username: marksneubauer
 scholar_userid: jxy08CgAAAAJ&hl=en
 orcid_id: 0000-0001-8434-9274
 contact_note: Email is the preferred means to reach me
