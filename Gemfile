@@ -41,8 +41,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-indico', '~> 0.6.2'
   gem 'jekyll-email-protect'
   gem 'jekyll-paginate'
-#  gem 'jekyll-scholar'
-  gem "jekyll-scholar", group: :jekyll_plugins
+  gem 'jekyll-scholar'
   gem 'jemoji'
 #  gem 'jekyll-indico', github: 'iris-hep/jekyll-indico', branch: 'main'
 end
@@ -63,3 +62,7 @@ gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 gem 'webrick'
 
 # seems to be required
+
+# 
+whitelist:
+  - jekyll-scholar
