@@ -4,4 +4,4 @@ permalink: /publications/
 title: Selected Publications
 ---
 
-{% bibliography %}
+Yo
