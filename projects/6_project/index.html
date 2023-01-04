@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Mark Neubauer | <b>Trigger Electronics</b></title>
+  <meta name="description" content="Academic home page of Mark Neubauer
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/6_project/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <a class="page-link" href="/"><strong>Mark Neubauer </strong></a>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">About</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/research/">Research</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">Selected Publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- Publications -->
+        <!-- <a class="page-link" href="/assets/pdf/pubs_both.pdf">Publications</a> -->
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">Blog</a>
+
+        <!-- CV link -->
+        <a class="page-link" href="/assets/pdf/CV.pdf">Vitae</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"><b>Trigger Electronics</b></h1>
+    <h5 class="post-description"><i>Fast Electronics for Triggering in Particle Physics</i></h5>
+  </header>
+
+  <article class="post-content <b>Trigger Electronics</b> clearfix">
+    <h3><span style="color:blue">Trigger Electronics for the SNO Experiment</span></h3>
+
+<p>The SNO trigger electronics was analog on the front-end (summed PMT pulses) and digital on the backend, as shown below.</p>
+
+<p><img width="700px" vspace="20" src="/assets/img/Trigger-diagram.png" alt="" title="example image" /></p>
+
+<p>As I graduate student on SNO and under the guidance of the legendary Penn HEP Instrumentation Group, I developed 5 different electronics boards for the SNO trigger system. These included the GPS fiber interface boards, analog measurement board, trigger utility board and the Master Trigger (aka “Brain”) board shown below:</p>
+
+<p><img align="left" width="390px" vspace="20" src="/assets/img/Trigger-mtcd.gif" alt="" title="example image" /></p>
+
+<p>To my knowledge, this is the first and last 12U VME board that fits into a 9U VME crate.</p>
+
+<h3><span style="color:blue">Fast Tracking Electronics</span></h3>
+
+<p>Selecting interesting physics events with high efficiency while suppressing backgrounds from high-rate QCD processes is a challenging but important problem. Performing high-quality track reconstruction over the full detector at the beginning of the HLT is key to addressing this problem. The computational load on HLT increases as the luminosity and pile-up increase, requiring more sophisticated algorithms for background suppression.</p>
+
+<p><b>Fast Tracker (FTK)</b>. Our group at Illinois developed electronics for a new system called FastTracKer (FTK) to rapidly determine charged particle trajectories using fast pattern recognition for use in the ATLAS trigger system starting in 2018 <a href="http://atlasftk.uchicago.edu/documentation/docs/06140940.pdf">IEEE 59 (2012) 348</a>. The FTK system consists of custom and commercial electronics using pre-computed hit patterns based on the ATLAS tracking detector layout to perform global reconstruction of tracks with pT &gt; 1 GeV, at the full 100 kHz Level-1 trigger rate, with similar resolution as in offline tracking. We are responsible for the design and construction two different types of boards for FTK (the larger of the two is a complex 18-layer PCB with six Xilinx Kintex-7 FPGAs shown below along with the Rear Transition Module) and associated firmware that handles the final-stage tracks and hits processing.</p>
+
+<p><img align="left" width="390px" vspace="20" src="/assets/img/Trigger-SSBMAIN.jpg" alt="" title="example image" />
+<img align="right" width="300px" vspace="20" src="/assets/img/Trigger-SSBRTM.jpg" alt="" title="example image" /></p>
+
+<p><b>Phase-II Hardware Track Trigger</b>. We are also in the early stage of developing the processing firmware for a much larger system suitable for data taking during the high-luminosity LHC era. In order to accommodate the higher luminosity running without significantly increasing trigger thresholds with respect to the Run-I values, major upgrades to the trigger and DAQ systems are required.</p>
+
+<h3><span style="color:blue">Further Reading</span></h3>
+
+<ol>
+  <li><a href="http://atlasftk.uchicago.edu/documentation/docs/06140940.pdf">G. Aad, et al., “The FastTracker Real Time Processor and Its Impact on Muon Isolation, Tau and b-Jet Online Selections at ATLAS”, IEEE Trans. Nucl. Sci. 59, 348 (2012)</a></li>
+  <li><a href="https://arxiv.org/abs/1110.1530">G. Aad, et al., “Performance of the ATLAS Trigger System in 2010”, Eur. Phys. J. C72, 1849 (2012)</a></li>
+  <li><a href="https://arxiv.org/abs/0901.0512">G. Aad, et al., “Expected Performance of the ATLAS Experiment – Detector, Trigger, and Physics”, arXiv:0901.0512 (2009)</a></li>
+  <li><a href="http://www.hep.upenn.edu/SNO/papers/sno_nim.pdf">J. Boger et al.,”The Sudbury Neutrino Observatory,” Nuclear Instruments and Methods, A449, 172 (2000)</a></li>
+</ol>
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2023 Mark Neubauer.
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
