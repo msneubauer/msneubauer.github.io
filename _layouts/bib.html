@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 <div class="text-justify">
     {{reference}}
@@ -10,16 +11,10 @@
 </div>
 {% endif %}
 
-<div>
-    {% if entry.doi %}
-    <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></span>
-    {% endif %}
-    {% if entry.hal_id %}
-    <span><a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></span>
-    {% endif %}
-</div>
-<div>
-    {% if entry.pdf %}
-    <span><a href="{{ entry.pdf }}">pdf</a></span>
-    {% endif %}
-</div>
+{% if entry.doi %}
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a>
+{% endif %}
+
+{% if entry.pdf %}
+<a href="{{ entry.pdf }}">pdf</a>
+{% endif %}

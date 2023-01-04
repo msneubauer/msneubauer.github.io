@@ -12,6 +12,7 @@ img {
 
 em img {
   max-width: 100%;
+  max-width: 10%;
   margin-left: 0;
 }
 
@@ -24,6 +25,7 @@ body {
 .wrapper {
     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
     max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: 90%; // msn added jan 4, 2023
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
