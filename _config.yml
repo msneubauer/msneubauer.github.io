@@ -87,17 +87,6 @@ plugins:
     - jekyll-scholar
     - jekyll-feed
     - jemoji
-
-# Enable safe mode
-#safe: true
-
-# 
-whitelist:
-    - jekyll-email-protect
-    - jekyll-paginate
-    - jekyll-scholar
-    - jekyll-feed
-    - jemoji
   
 # Jekyll-Scholar
 scholar:
