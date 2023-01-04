@@ -89,11 +89,15 @@ plugins:
     - jemoji
 
 # Enable safe mode
-safe: true
+#safe: true
 
 # 
 whitelist:
-  - jekyll-scholar
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll-scholar
+    - jekyll-feed
+    - jemoji
   
 # Jekyll-Scholar
 scholar:

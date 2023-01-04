@@ -38,12 +38,10 @@ gem 'minima', '~> 2.5'
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.16'
   gem 'jekyll-include-cache'
-#  gem 'jekyll-indico', '~> 0.6.2'
   gem 'jekyll-email-protect'
   gem 'jekyll-paginate'
   gem 'jekyll-scholar'
   gem 'jemoji'
-#  gem 'jekyll-indico', github: 'iris-hep/jekyll-indico', branch: 'main'
 end
 
 # This is used like a library, not as a plugin
