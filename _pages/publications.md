@@ -5,3 +5,5 @@ title: Selected Publications
 ---
 
 Yo
+
+{% bibliography %}
