@@ -1,85 +1,38 @@
-# frozen_string_literal: true
+require "rubygems"
+require "tmpdir"
 
-require 'rake/clean'
-require 'rubocop/rake_task'
+require "bundler/setup"
+require "jekyll"
 
-# If no task given, build
-task default: :build
 
-# Support clean and clobber tasks
-CLEAN << '_site'
-CLOBBER << '_cache' << '.sass-cache' << '_data/indico'
+# Change your GitHub reponame
+GITHUB_REPONAME = "ixti/ixti.github.com"
 
-desc 'Preview on a local machine'
-task :serve do
-  trap('SIGINT') { exit }
-  jekyll 'serve', :incremental, :livereload
+
+desc "Generate blog files"
+task :generate do
+  Jekyll::Site.new(Jekyll.configuration({
+    "source"      => ".",
+    "destination" => "_site"
+  })).process
 end
 
-desc 'Build on a local machine'
-task :build do
-  jekyll 'build', :verbose, :trace
-end
 
-desc 'Cache the indico access'
-task :cache do
-  sh 'jekyll-indico-cache'
-end
+desc "Generate and publish blog to gh-pages"
+task :publish => [:generate] do
+  Dir.mktmpdir do |tmp|
+    cp_r "_site/.", tmp
 
-RuboCop::RakeTask.new(:rubocop)
+    pwd = Dir.pwd
+    Dir.chdir tmp
 
-# See https://github.com/gjtorikian/html-proofer#configuration
-COMMON_OPTIONS = {
-  assume_extension: true,
-  allow_hash_href: true,
-  url_swap: { %r{https://localhost:4000/} => '' }
-}.freeze
+    system "git init"
+    system "git add ."
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m #{message.inspect}"
+    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    system "git push origin master --force"
 
-LIGHT_OPTIONS = {
-  url_ignore: [
-    'Unknown',
-    'http://vassil.vassilev.info',
-    'https://indico.lal.in2p3.fr/event/4754/#sc-19-8-machine-learning-to-pr', # Fix
-    %r{https://www.ci.uchicago.edu/profile/.*}
-  ]
-}.freeze
-
-desc 'Check already built site'
-task :checkonly do
-  html_proofer COMMON_OPTIONS, LIGHT_OPTIONS
-end
-
-desc 'Check links and things'
-task check: %i[build checkonly]
-
-desc 'Stronger check for missing options - will show up as warnings on Travis'
-task checkall: :build do
-  html_proofer COMMON_OPTIONS
-end
-
-### Support functions ###
-
-# Run the jekyll command, with arguments
-# (symbols are long options, hashes are long options with arguments)
-def jekyll(*directives)
-  directives.map! do |x|
-    case x
-    when Symbol
-      "--#{x}"
-    when Hash
-      x.map { |k, v| "--#{k}=#{v}" }.join(' ')
-    else x
-    end
-  end
-  sh "jekyll #{directives.join(' ')}"
-end
-
-# Run HTMLProofer
-def html_proofer(*options)
-  require 'html-proofer'
-  begin
-    HTMLProofer.check_directory('./_site', options.inject(:merge)).run
-  rescue RuntimeError => e
-    abort e.message
+    Dir.chdir pwd
   end
 end
