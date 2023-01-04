@@ -41,7 +41,8 @@ group :jekyll_plugins do
 #  gem 'jekyll-indico', '~> 0.6.2'
   gem 'jekyll-email-protect'
   gem 'jekyll-paginate'
-  gem 'jekyll-scholar'
+#  gem 'jekyll-scholar'
+  gem "jekyll-scholar", group: :jekyll_plugins
   gem 'jemoji'
 #  gem 'jekyll-indico', github: 'iris-hep/jekyll-indico', branch: 'main'
 end
