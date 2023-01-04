@@ -88,6 +88,13 @@ plugins:
     - jekyll-feed
     - jemoji
 
+# Enable safe mode
+safe: true
+
+# 
+whitelist:
+  - jekyll-scholar
+  
 # Jekyll-Scholar
 scholar:
 
