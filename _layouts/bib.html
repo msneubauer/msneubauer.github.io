@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
+
 <div class="text-justify">
     {{reference}}
 </div>
 
-{% if entry.note %}
-<div>
-    <em>{{ entry.note }}</em>
-</div>
-{% endif %}
-
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a>
+    [<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank">DOI</a>]
 {% endif %}
 
 {% if entry.pdf %}
-<a href="{{ entry.pdf }}">pdf</a>
+    [<a href="{{ entry.pdf }}" target="_blank">PDF</a>]
 {% endif %}
+
+<span class="notes">
+    {% if entry.notes %}
+        <em> {{entry.notes}} </em>
+    {% endif %}
+</span>
