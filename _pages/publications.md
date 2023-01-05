@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /publications/
-title: Selected Publications
+title: Publications
+usemathjax: true
 ---
 
-Yo
+<h2>Selected Publications</h2>
 
 {% bibliography %}
