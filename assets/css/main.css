@@ -313,7 +313,7 @@ em img { max-width: 100%; max-width: 10%; margin-left: 0; }
 
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
-.wrapper { max-width: -webkit-calc(800px - (50px * 2)); max-width: calc(800px - (50px * 2)); max-width: 90%; margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+.wrapper { max-width: -webkit-calc(800px - (50px * 2)); max-width: calc(800px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
 
 .clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after { content: ' '; display: table; }
 
@@ -381,11 +381,11 @@ footer a:hover { color: #B509AC; }
 
 .post-link { display: block; font-size: 42px; }
 
-.project { box-sizing: border-box; height: 250px; padding: 10px; vertical-align: middle; width: 33.33%; }
+.project { box-sizing: border-box; height: 230px; padding: 10px; vertical-align: middle; width: 100%; }
 
-.project .thumbnail { overflow: hidden; height: 220px; width: 100%; }
+.project .thumbnail { overflow: hidden; height: 220px; width: auto; }
 
-.project .thumbnail img { height: auto; position: relative; left: -25%; top: -5%; width: 500px; }
+.project .thumbnail img { height: auto; width: 290px; }
 
 .project .thumbnail a { float: left; height: 230px; position: relative; width: 100%; }
 
